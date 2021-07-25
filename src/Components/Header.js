@@ -37,9 +37,48 @@ const Title = styled.li`
 color:rgb(204, 0, 0);
 font-size: 26px;
 font-weight: bold;
-font-family:Calibri (Body);
+font-family: impact;
 margin: 0;
 padding: 0;
+perspective: 1000px;
+perspective-origin: 50% 0;
+  animation: netflix_style 3.5s infinite;
+  outline: none;
+  white-space: nowrap;
+}
+
+@keyframes netflix_style {
+  0% {
+    text-shadow: makelongshadow(100,1);
+    color::#e90418;
+    transform: scale(1.5, 1.5);
+  }
+  10% {
+    text-shadow: makelongshadow(100,1.5);
+    color::#e90418;
+    transform: scale(1.5, 1.5);
+  }
+  15% {
+     color::#e90418;
+  }
+  20% {    
+    color:#e90418;
+    text-shadow: none;
+    transform: scale(1.1, 1.1);
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;    
+    color:#e90418;
+    transform: scale(0.85, 0.9);
+  }
+  
+  100% {
+    opacity: 0;
+  }
+}
 `;
 
 const SLink = styled(Link)`
@@ -56,13 +95,6 @@ export default withRouter(({ location: { pathname } }) => (
 		    <Item>
                 <Title  className="navbar-brand py-0"> Myflix </Title>
             </Item>
-			<Item>
-			<img
-          className="nav__logo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt=""
-        />
-			</Item>
 			{/* current is condition type */}
 			<Item current={pathname === "/myflix"}>
 				<SLink to="/myflix" className="btn btn-block btn-lg jumboButton">Movies</SLink>

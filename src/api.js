@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api_key = "b9a8cdc2048ddaefc9a94f23d76d46a1";
+const api_key = "192f0a7664ceb6f4ca03e9d24c3ed735";
 const language = "en-US";
 
 const api = axios.create({
