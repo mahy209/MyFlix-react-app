@@ -1,9 +1,9 @@
 # Myflix-react-app
 
-reactjs app with (TMDB) API.
-API from https://www.themoviedb.org/
+-reactjs app with (TMDB) API.
+-API from https://www.themoviedb.org/
 
-## stack
+## Stack
 1. `Environment setup using Create-React-App`
 2. `React/JSX` 
 3. `The movie database (TMDB) API`
