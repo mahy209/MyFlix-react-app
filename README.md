@@ -1,26 +1,35 @@
-# Myflix
+# Myflix-react-app
 
-Learning React and ES6 by building a Movie Discovery App.
+reactjs app with (TMDB) API from https://www.themoviedb.org/.
 
-- Container has anonymous class with logic.
-- ReactPlayer is responsive.
+## stack
+1. `Environment setup using Create-React-App`
+2. `React/JSX` 
+3. `The movie database (TMDB) API`
+4. `Responsive design using Bootstrap v4`
 
-API from https://www.themoviedb.org/
+## Features
 
+1. `List popular Movies and Tv Shows`
+2. `Search Movies and Tv Shows by title`
+3. `View details about Movies and Tv Shows including poster and trailers` 
+
+## Getting Started
+```
+1. git clone this repo.
+2. cd myflix-react-app
+3. npm install
+4. npm start
+```
 ## Screens
 
-- [x] Home
-- [x] TV Show
-- [x] Search
-- [x] Detail
+- Home
+- TV Show
+- Search
+- Detail
 
-## API Verbs
 
-- [x] Now playing, (Movie)
-- [x] Upcoming (Movie)
-- [x] Top Rated (TV, Movie)
-- [x] Popular (TV, Movie)
-- [x] Airing Today (TV)
-- [x] TV Show Detail
-- [x] Movie Detail
-- [x] Search (Movie, TV)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://opensource.org/licenses/MIT) file for details
+
