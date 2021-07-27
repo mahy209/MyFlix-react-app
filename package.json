@@ -1,10 +1,11 @@
 {
 	"name": "myflix",
 	"version": "0.1.0",
-	"homepage": "https://David-Myeonghan.github.io/myflix",
+	"homepage": "https://github.com/mahy209/MyFlix-react-app",
 	"private": true,
 	"dependencies": {
 		"axios": "^0.19.0",
+		"node-sass": "^4.14.1",
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
