@@ -15,7 +15,7 @@ export default () => (
 			<Route path="/myflix/search" exact component={Search} />
 			<Route path="/myflix/movie/:id" component={Detail} />
 			<Route path="/myflix/show/:id" component={Detail} />
-			<Redirect from="*" to="/" />
+			<Redirect from="*" to="/myflix" />
 		</Switch>
 	</Router>
 );
